@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    22
+
+    <button onclick="debounce(testFn, 1000)">按钮</button>
+    <br>
+    <button id='id2'>ss</button>
+
+    <script src="currying.js"></script>
+    <script src="debounceAndthrotting.js"></script>
+    <script>
+        document.getElementById("id2").addEventListener("click", throtting(testFn, 1000))
+    </script>
+
+</body>
+
+</html>
